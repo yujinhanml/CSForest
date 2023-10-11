@@ -1,6 +1,3 @@
-setwd('/Users/hanbujishenmebuhui/Desktop/X/BCOPS+/exp/')
-
-
 library(ranger)
 
 type.errors<-function(Cscores,ylabel,K,alpha=0.05,comparison=T){
@@ -11,10 +8,7 @@ type.errors<-function(Cscores,ylabel,K,alpha=0.05,comparison=T){
     C_hat  = ifelse(Cscores>=alpha, 1, 0)
   }
   
-  
-  #ylabel=ytest
-  #### Error
-  #K=5
+
   typeI = rep(0, K+2+K+1)
   names(typeI) = c(paste0("class", (0:K)),'average',paste0("oclass", (0:K)))
   for(k in 0:K){
