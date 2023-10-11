@@ -1,5 +1,3 @@
-rm(list = ls())
-setwd('/Users/hanbujishenmebuhui/Desktop/X/BCOPS+/exp/')
 library(dplyr)
 library(randomForest)
 library(reshape2)
@@ -8,11 +6,6 @@ library(ranger)
 library(tidyverse)
 library(ggsci)
 library(patchwork)
-
-#library(devtools)
-
-#install_github("LeyingGuan/BCOPS/bcops",force = TRUE)
-
 library(bcops)
 
 #--------- readin simulation data ------------
