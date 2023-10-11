@@ -1,6 +1,3 @@
-setwd('/Users/hanbujishenmebuhui/Desktop/X/BCOPS+/exp/')
-
-
 library(ranger)
 
 type.errors<-function(Cscores,ylabel,K,alpha=0.05,comparison=T){
