@@ -12,8 +12,8 @@
 #'        in the ranger model with corresponding index. The model is a list of ranger objects.
 #' @examples
 #' \dontrun{
-#' testData = read.csv("~/Desktop/自学/申请/大三暑假/Research /code/BCOPS/SimTest.csv")[,-1]
-#' trainData = read.csv("~/Desktop/自学/申请/大三暑假/Research /code/BCOPS/SimTrain.csv")[,-1]
+#' testData = read.csv("~/SimTest.csv")[,-1]
+#' trainData = read.csv("~/SimTrain.csv")[,-1]
 #' ########cleaning data##############
 #' set.seed(123)
 #' colnames(testData) = c("x1", "x2", "label")
